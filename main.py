@@ -517,12 +517,10 @@ except ReservaError as error:
 # FINALIZACIÓN
 # =====================================================
 
-finally:
+print(
+    "\nSistema ejecutado correctamente."
+)
 
-    print(
-        "\nSistema ejecutado correctamente."
-    )
-
-    logging.info(
-        "Ejecución finalizada correctamente"
-    )
+logging.info(
+    "Ejecución finalizada correctamente"
+)
